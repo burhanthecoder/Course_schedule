@@ -8,7 +8,6 @@ import lecture from "./routes/lecture";
 import user from "./routes/user";
 import path from "path";
 import { fileURLToPath } from 'url';
-import serverless from 'serverless-http';
 import { verifyAccessToken } from "./controllers/authMiddleware";
 
 const app = express();
